@@ -108,6 +108,8 @@ func randomizeMatches(people []Person) {
 	for i := 1; i < len(matches); i++ {
 		fmt.Printf("%20s -> %20s\n", matches[i-1].Name, caesarEncrypt(matches[i].Name, 10))
 	}
+
+	fmt.Printf("%20s -> %20s\n", matches[len(matches)-1].Name, caesarEncrypt(matches[0].Name, 10))
 }
 
 func findPerson(people []Person, name string) Person {

@@ -1,5 +1,7 @@
 # SECRET SANTA
 
+![Santa](https://images.pexels.com/photos/1556679/pexels-photo-1556679.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)
+
 ## Description
 A simple program that takes as input a dataset composed like this
 
